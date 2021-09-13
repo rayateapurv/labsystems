@@ -1,0 +1,53 @@
+body {
+  color: red;
+}
+
+h1 {
+  color: red;
+  font-family: monospace;
+}
+
+div {
+  width: max-content;
+  height: max-content;
+  background-color: aquamarine;
+}
+
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+  color: chocolate;
+  font-weight: 700;
+  transform: scale(2);
+  transform: rotateZ(57deg);
+  text-shadow: 2px 2px 5px gold;
+}
+
+.fir {
+  position: absolute;
+  z-index: 2;
+  width: 500px;
+  height: 430px;
+  margin-top: 400px;
+  margin-left: 300px;
+  border-radius: 250px;
+}
+
+.dir {
+  background: blueviolet;
+  position: absolute;
+  width: 50px;
+  height: 430px;
+  margin-top: 120px;
+  margin-left: 600px;
+}
+
+.hir {
+  margin-top: 80px;
+  margin-left: 20px;
+  width: 300px;
+  border-style: dotted;
+  background: cadetblue;
+}
+

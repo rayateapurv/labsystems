@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Inter;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: red;
+}
+
+div {
+  background-color: white;
+}
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  margin: 0;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+  color: palevioletred;
+  text-decoration: underline;
+}
+
+.lefa {
+  margin-left: 40px;
+}
+
+.riga {
+  margin-right: 60px;
+  float: right;
+}
+
+.rig {
+  float: right;
+}
+
+.col {
+  color: gray;
+}
+
+.column {
+  float: left;
+  height: 94.5vh;
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.blu {
+  color: cornflowerblue;
+}
+
+#coll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#coln {
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgb(90, 90, 90);
+}
+
+.flex {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  background-color: rgb(90, 90, 90);
+}
+
+#bla {
+  color:black;
+}

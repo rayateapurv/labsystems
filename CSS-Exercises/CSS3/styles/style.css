@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Inter;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+}
+
+body {
+  margin: 0;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: black;
+  margin: 20px;
+}
+
+div {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 40px;
+  background: white;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.greyrec {
+  margin-top: 5px;
+  margin-left: -30px;
+  position: absolute;
+  z-index: 4;
+  width: 100px;
+  height: 80px;
+  border-radius: 5px;
+  background: lightgrey;
+}
+
+.card1 {
+  float: left;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: lightgrey;
+}
+
+.card2 {
+  float: left;
+  margin: 20px;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: royalblue;
+}
+
+.reddy {
+  color: rgb(248, 70, 70);
+}
+
+#rot {
+  position: absolute;
+  z-index: 2;
+  margin-top: 350px;
+  margin-left: 350px;
+  transform: rotateZ(-20deg);
+}
