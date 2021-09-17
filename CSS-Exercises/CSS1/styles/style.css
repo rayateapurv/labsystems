@@ -1,11 +1,6 @@
-@font-face {
-  font-family: Inter;
-  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-}
-
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   color: red;
 }
 
@@ -13,8 +8,13 @@ div {
   background-color: white;
 }
 
+h1 {
+  font-size: 40px;
+}
+
 h2 {
   margin: 0;
+  font-size: 25px;
   font-weight: bold;
   color: white;
 }
@@ -91,8 +91,9 @@ li a {
 }
 
 #coln {
+  display: flex;
+  justify-content: center;
   padding: 50px;
-  box-sizing: border-box;
   background-color: rgb(90, 90, 90);
 }
 

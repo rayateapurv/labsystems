@@ -1,13 +1,10 @@
-@font-face {
-  font-family: Inter;
-  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-}
-
 body {
-  margin: 0;
+  margin-top: 40px;
   color: black;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
   font-weight: lighter;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -15,9 +12,12 @@ h1 {
   margin: 20px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 div {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 140px;
   margin-top: 40px;
   background: white;
 }
@@ -26,6 +26,8 @@ div {
   display: flex;
   flex-wrap: wrap;
   width: 800px;
+  margin-left: 140px;
+  position: absolute;
 }
 
 .greyrec {
