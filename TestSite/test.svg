@@ -1,0 +1,33 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197 211">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7cd159;
+      }
+
+      .cls-2 {
+        fill: #434bff;
+      }
+
+      .cls-3 {
+        fill: #ff4bff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-1" cx="49" cy="153" rx="49" ry="58"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <ellipse class="cls-2" cx="121" cy="107" rx="75" ry="45"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-3" x="85" width="95" height="95.49"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <path d="M0,0Z"/>
+    <path d="M0,0ZM0,0Z"/>
+    <path d="M0,0Z"/>
+    <path d="M0,0Z"/>
+    <path d="M0,0ZM0,0Z"/>
+  </g>
+</svg>
