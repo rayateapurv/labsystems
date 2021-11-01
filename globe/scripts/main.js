@@ -44,8 +44,8 @@ const colors = [0xcc66ff, 0xffff66, 0xffff99, 0x0099ff, 0xff5050, 0xff9900, 0x00
 const earth = new THREE.Mesh( 
     new THREE.SphereGeometry(earthradius, 50, 50), 
     new THREE.MeshPhongMaterial({
-        map: new THREE.TextureLoader().load("../assets/img/globe.jpeg"),
-        bumpMap: new THREE.TextureLoader().load("../assets/img/globebump.jpeg"),
+        map: new THREE.TextureLoader().load("../globe/assets/img/globe.jpeg"),
+        bumpMap: new THREE.TextureLoader().load("../globe/assets/img/globebump.jpeg"),
         color: 0xaaaaaa,
         specular: 0x333333,
         shininess: 25
