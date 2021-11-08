@@ -38,10 +38,10 @@ X-coord,Z-coord,Launch Site
 -20.02,-19.58,Baikonur Cosmodrome
 18.3,21.19,Guiana Space Center
 2.35,27.9,Cape Canaveral
-22.06,-17.25,Wenchang Satellite Launch Center
-28,-1,Wenchang Satellite Launch Center
+22.5,-17,Wenchang Satellite Launch Center
+27.8,-3,Wenchang Satellite Launch Center
 -26.52,8.99,Cape Canaveral
-28,-3,Xichang Satellite Launch Center
+28,-3.5,Xichang Satellite Launch Center
 22.06,-17.25,Xichang Satellite Launch Center
 27.12,-6.97,Xichang Satellite Launch Center
 -16.46,-22.65,Guiana Space Center
@@ -58,12 +58,12 @@ X-coord,Z-coord,Launch Site
 const sitedata = `
 Launch Site,Latitude,Longitude
 Cape Canaveral,28.4,-80.6
-Xichang Satellite Launch Center,28.24,102.02
-Baikonur Cosmodrome,45.91,63.4
 Guiana Space Center,5.23,-52.77
+Baikonur Cosmodrome,45.91,63.4
 Satish Dhawan Space Centre,13.72, 80.16
-Tanegashima Space Center,30.37,130.95
 Wenchang Satellite Launch Center,40.96,100.28
+Xichang Satellite Launch Center,28.24,102.02
+Tanegashima Space Center,30.37,130.95
 `;
 
 
