@@ -1,0 +1,141 @@
+body {
+  color: red;
+  background-color: #081119;
+  margin: 0;
+  font-family: dazzle-unicase, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+a {
+  text-decoration: none; 
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  margin-left: 220px;
+}
+
+.dropdown-content {
+  display: none;
+  height: 80%;
+}
+
+.dropdown-content2 {
+  display: none;
+  height: 80%;
+}
+
+.show {
+  display: block;
+  position: fixed;
+  top: 4.5em;
+  right: 0;
+  background-color: #081119;
+  padding: 2em;
+}
+
+.show2 {
+  display: block;
+  position: fixed;
+  top: 4.5em;
+  right: 0;
+  background-color: #081119;
+  padding: 2em;
+}
+
+.ind {
+  z-index: 1;
+}
+
+.about {
+  margin-left: 50%;
+}
+
+.help {
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  width: 100%; 
+  text-align: center;
+}
+
+#dropbtn {
+  position: fixed;
+  right: 8em;
+  top: 1.5em;
+  background: none;
+  border: none;
+  font-family: dazzle-unicase, sans-serif;
+  font-size: 18px;
+  color: #47ff96;
+  transition: color 0.5s ease-in-out;
+}
+
+#dropbtn:hover {
+  color: #2f92a8;
+}
+
+#dropbtn2 {
+  position: fixed;
+  right: 2em;
+  top: 1.5em;
+  background: none;
+  border: none;
+  font-family: dazzle-unicase, sans-serif;
+  font-size: 18px;
+  color: #47ff96;
+  transition: color 0.5s ease-in-out;
+}
+
+#dropbtn2:hover {
+  color: #2f92a8;
+}
+
+#head {
+  position: fixed;
+  color: #47ff96;
+  top: 0;
+  left: 1em;
+  font-size: 32px;
+  transition: color 0.5s ease-in-out;
+}
+
+#head:hover{
+  color: #2f92a8;
+}
+
+#legend {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#helper {
+  font-family: space-mono, mono;
+  text-align: center;
+  color: #47ff96;
+}
+
+#glcanvas {
+  display: block;
+  
+}
+
+#head2 {
+  width: 600px;
+  color: #47ff96;
+  margin-left: 40%;
+  font-size: 28px;
+}
+
+#info {
+  color: #8c8c8c;
+  width: 500px;
+  font-family: space-mono, mono;
+  line-height: 25px;
+}
