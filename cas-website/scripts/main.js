@@ -152,7 +152,7 @@ let city = (xco, yco, zco, size, color, type) => {
 let texts = [];
 let objectName = (xco, yco, zco, size, color, name) => {
     const loader = new FontLoader();
-    loader.load( '../assets/font/Space_Mono_Regular.json', ( font ) => {
+    loader.load( '../cas-website/assets/font/Space_Mono_Regular.json', ( font ) => {
         const matLite = new THREE.MeshBasicMaterial( {
             color: color,
             transparent: true,
