@@ -1,7 +1,7 @@
-import * as THREE from 'https://cdn.skypack.dev/three@0.133.1';
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.133.1/examples/jsm/controls/OrbitControls.js';
-import { FontLoader } from 'https://cdn.skypack.dev/three@0.133.1/examples/jsm/loaders/FontLoader.js';
-import { InteractionManager } from 'https://cdn.skypack.dev/three.interactive';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { FontLoader } from 'three/examples/jsm/loaders/FontLoader';
+import { InteractionManager } from 'https://cdn.jsdelivr.net/npm/three.interactive@1.3.0/build/three.interactive.min.js';
 import * as TWEEN from 'https://cdn.skypack.dev/@tweenjs/tween.js';
 
 let earthradius = 5;
