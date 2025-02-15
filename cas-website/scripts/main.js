@@ -2,7 +2,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { FontLoader } from "three/examples/jsm/loaders/FontLoader";
 import { InteractionManager } from "https://cdn.jsdelivr.net/npm/three.interactive@1.3.0/build/three.interactive.min.js";
-import * as TWEEN from "https://cdn.skypack.dev/@tweenjs/tween.js";
+import {Group, Tween} from "tween";
 
 let earthradius = 5;
 let sceneNum = 8;
@@ -70,6 +70,10 @@ const siteObjects = [];
 const linkObjects = [];
 const citylinkObjects = [];
 const cityObjects = [];
+
+const satTweenGroup = new Group()
+const siteTweenGroup = new Group()
+const cityTweenGroup = new Group()
 
 const interactionManager = new InteractionManager(
   renderer,
@@ -656,12 +660,13 @@ satObjects.forEach((d) => {
       y: camera.position.y,
       z: camera.position.z,
     };
-    new TWEEN.Tween(coords)
+    const tw = new Tween(coords)
       .to({ x: camPos.x, y: camPos.y, z: camPos.z }, 1000)
       .onUpdate(() => {
         camera.position.set(coords.x, coords.y, coords.z);
       })
       .start();
+    satTweenGroup.add(tw);
 
     for (let i = 0; i < satObjects.length; i++) {
       satObjects[i]["satellite"].children[2].material.color.set(col);
@@ -715,12 +720,13 @@ siteObjects.forEach((d) => {
       y: camera.position.y,
       z: camera.position.z,
     };
-    new TWEEN.Tween(coords)
+    const tw = new Tween(coords)
       .to({ x: camPos.x, y: camPos.y, z: camPos.z }, 1000)
       .onUpdate(() => {
         camera.position.set(coords.x, coords.y, coords.z);
       })
       .start();
+    siteTweenGroup.add(tw);
 
     for (let i = 0; i < satObjects.length; i++) {
       satObjects[i]["satellite"].children[2].material.color.set(col);
@@ -767,12 +773,13 @@ cityObjects.forEach((d) => {
       y: camera.position.y,
       z: camera.position.z,
     };
-    new TWEEN.Tween(coords)
+    const tw = new Tween(coords)
       .to({ x: camPos.x, y: camPos.y, z: camPos.z }, 1000)
       .onUpdate(() => {
         camera.position.set(coords.x, coords.y, coords.z);
       })
       .start();
+    cityTweenGroup.add(tw);
 
     for (let i = 0; i < satObjects.length; i++) {
       satObjects[i]["satellite"].children[2].material.color.set(col);
@@ -830,7 +837,9 @@ const animate = () => {
 
   camera.lookAt(earthVec);
 
-  TWEEN.update();
+  satTweenGroup.update();
+  siteTweenGroup.update();
+  cityTweenGroup.update();
 
   requestAnimationFrame(animate);
 
